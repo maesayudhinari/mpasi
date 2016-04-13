@@ -361,6 +361,12 @@ input.white[type=submit]:hover{
 .bx-wrapper .bx-pager {
 	bottom: 70px;
 }
+
+#image{
+    float: right;
+    margin:-3% 2%;
+    padding:-10%;
+}
 .bx-wrapper .bx-pager.bx-default-pager a {
 	background: url(../images/bg_pgn.png) no-repeat;
 	background-size: 30px 30px;
@@ -1128,7 +1134,7 @@ input.white[type=submit]:hover{
 }
 .footer-bottom {
 	width: 100%;
-	color: #6ca0b7;
+	color: #85d8e5;
 	font-size: 14px;
 	text-align: center;
 }
