@@ -1742,9 +1742,28 @@ input.white[type=submit]:hover{
 	}
 }
 
-
+/* mulai css yang dibuat untuk bagian isi halaman ini */
 
 .judul {
-	font-size:200em;
+	font-size:2em;
+	width:70%;
+	text-align:left;
+	float:left;
+	margin:0 0 1% 2%;
 }
 
+.ready {
+	float:left;
+	width: 70%;
+	text-align: center;
+	padding: 1%;
+}
+
+#testikanan {
+	float:right;
+	text-align:left;
+	width:20%;
+	height:auto;
+	padding:2%;
+	font-size:smaller;
+}
