@@ -146,7 +146,7 @@ input[type=tel], input[type=url], input[type=password], input[type=text], input[
 /* Normalized Styles
 ------------------------------------------------------------------------------*/
 body {
-	font-family: 'Arvo', serif ;
+	font-family: 'Arvo', serif;
 	font-size: 15px;
 	color: #9e9994;
 	background: #fffbf7;
@@ -187,7 +187,6 @@ a.yellow {
 a.red {
 	color: #fff;
 	background: url(../images/bg_red-btn.png) no-repeat;
-    margin: 10% 0% 0% 40%;
 }
 a.red:hover, a.yellow:hover{
 	opacity: 0.8;
@@ -320,7 +319,7 @@ input.white[type=submit]:hover{
 	padding: 0 10px;
 }
 .promo h1 {
-	font-family: 'Gochi Hand', cursive ;
+	font-family: 'Gochi Hand', cursive;
 	font-size: 48px;
 	text-align: left;
 	text-shadow: 2px 2px 3px #ce5a5d;
@@ -361,12 +360,6 @@ input.white[type=submit]:hover{
 }
 .bx-wrapper .bx-pager {
 	bottom: 70px;
-}
-
-#image{
-    float: right;
-    margin:-3% 2%;
-    padding:-10%;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
 	background: url(../images/bg_pgn.png) no-repeat;
@@ -1135,7 +1128,7 @@ input.white[type=submit]:hover{
 }
 .footer-bottom {
 	width: 100%;
-	color: #85d8e5;
+	color: #6ca0b7;
 	font-size: 14px;
 	text-align: center;
 }
@@ -1749,55 +1742,62 @@ input.white[type=submit]:hover{
 	}
 }
 
-.clear {
-	content:".";
-	display:block;
-	clear:both;
-	height:10mm;
-	visibility:hidden;
+/* mulai css yang dibuat untuk bagian isi halaman ini */
+
+.judul {
+	font-size:2em;
+	width:70%;
+	text-align:left;
+	float:left;
+	margin:0 0 1% 2%;
 }
 
-#id2 {
-    list-style-type: none;
+.ready {
+	float:left;
+	width: 70%;
+	text-align: center;
+	padding: 1%;
+}
+
+.cook {
+	float:left;
+	width: 70%;
+	text-align: center;
+	padding: 1%;
+}
+
+.imgprod {
+	border-radius: 4%;
+}
+
+td {
+	width: 30%;
+}
+
+/* pagination*/
+ul.pagination {
+    display: inline-block;
+    padding: 0;
     margin: 0;
-    padding: 15%;
-    overflow: hidden;
-    background-color: #fffbf7;
-    text-align: center;
-    font-smoothing: antialiased;
 }
 
-.inputText {
-	width:300px;
-	height:24px;
-	border:1px solid #cccccc;
-	padding:7px;
-}
-.inputTextarea {
-	width:525px;
-	height:250px;
-	border:1px solid #cccccc;
-	padding:7px;
-}
-.contact_form .inputText.error_class {
-	border:1px solid #ef716d;
-}
-.contact_form .inputTextarea.error_class {
-	border:1px solid #ef716d;
-}
-.contact_form label {
-	text-align:center;
-	margin-right: 0.5em;
-	color:#ea6b6e;
-	font-size:13px;
-    font-family: 'Arvo', serif;
-}
-.contact_form label span {
-	color:red;
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
-.contact_1{
-    line-height: 0;
-    text-align: center;
-    margin: 10% 0% 0% 0%;
+
+#testikanan {
+	float:right;
+	text-align:left;
+	width:20%;
+	height:auto;
+	padding:2%;
+	font-size:smaller;
+	margin-top:-88%;
+
 }
