@@ -14,7 +14,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	
-<script>
+<script type="text/javascript">
 function readMore(){
 	var temp=document.getElementById("readMore").style.display;
 	if(temp=="none")
@@ -23,11 +23,13 @@ function readMore(){
 	document.getElementById("readMore").style.display="none";
 }
 
-$(".hide").hide();
-		$("#readMore1").click(function(){
-$(".hide").slideToggle("fast");
-		});
+//$(".hide").hide();//
+		//$("#readMore1").click(function(){//
+//$(".hide").slideToggle("fast");//
+		//});//
+</script>
 
+<script type="text/javascript">
 function readMore1(){
 	var temp=document.getElementById("readMore1").style.display;
 	if(temp=="none")
@@ -35,7 +37,18 @@ function readMore1(){
 	else
 	document.getElementById("readMore1").style.display="none";
 }
+				
+</script>
 
+<script type="text/javascript">
+function readMore2(){
+	var temp=document.getElementById("readMore2").style.display;
+	if(temp=="none")
+	document.getElementById("readMore2").style.display="block";
+	else
+	document.getElementById("readMore2").style.display="none";
+}
+				
 </script>
 
 </head>
@@ -44,7 +57,7 @@ function readMore1(){
 	<div id="wrapper" class="homepage">
 		<div class="wrapper-holder">
 			<header id="header">
-				<div class="left-part"></div>
+				<div class="left-part">
 				<a id="logo" href="index.html">Super Kids</a>
 				<div class="bar-holder">
 					<a class="menu_trigger" href="#">menu</a>
@@ -57,8 +70,11 @@ function readMore1(){
 						</ul>
 					</nav>
 				</div>
+</div>
 			</header>
-			
+		</div>
+	</div>
+	
 <div class="article">
 <img id src="Images/momnbaby.jpg" width="200" height="200"/>
 <h6>Thu 14 April</h6>
@@ -111,6 +127,7 @@ function readMore1(){
 </div>
 
 <button onclick="readMore()">readmore</button>
+</div>
 
 <div class="article">
 <img id src="Images/babynfood.jpg" width="175" height="175"/>
@@ -121,7 +138,7 @@ function readMore1(){
 <p>MPASI yang tepat dengan gizi yang seimbang sangat mempengaruhi tumbuh kembang</p>
 <p>bayi dan pola makannya ketika sudah besar.</p>
 
-<div style="display:none;"id="readMore">
+<div style="display:none;" id="readMore1">
 
 <p>Tahapan pengenalan MPASI adalah sebagai berikut:</p>
 
@@ -155,31 +172,8 @@ function readMore1(){
 <p><strong>4. Pada usia lebih dari 1 tahun, anak sudah bisa mengkonsumsi makanan keluarga.</strong></p>
 </div>
 
-<button onclick="readMore()">readmore</button>
-
-<script>
-function readMore(){
-	var temp=document.getElementById("readMore").style.display;
-	if(temp=="none")
-	document.getElementById("readMore").style.display="block";
-	else
-	document.getElementById("readMore").style.display="none";
-}
-
-$(".hide").hide();
-		$("#readMore2").click(function(){
-$(".hide").slideToggle("fast");
-		});
-
-function readMore1(){
-	var temp=document.getElementById("readMore2").style.display;
-	if(temp=="none")
-	document.getElementById("readMore2").style.display="block";
-	else
-	document.getElementById("readMore2").style.display="none";
-}
-
-</script>
+<button onclick="readMore1()">readmore</button>
+</div>
 
 <div class="article">
 <img id src="Images/resep mpasi.jpg" width="180" height="180"/>
@@ -188,7 +182,7 @@ function readMore1(){
 <p>Si Kecil sudah masuk usia 6 bulan? Apakah masih ragu resep MPASI</p>
 <p>terbaik untuknya? Berikut kami memiliki beberapa resep untuk bayi anda.</p>
 
-<div style="display:none;"id="readMore">
+<div style="display:none;" id="readMore2">
 
 <p><h4><strong>1.Pure Pepaya  dan Apel (MPASI 7 bln)</strong></h4></p>
 <p>Bahan-bahan:</p>
@@ -226,33 +220,17 @@ function readMore1(){
 <p>Garam secukupnya</p>
 <p>2 sdm olive oil</p>
 <p>1 sdm baceman bw putih</p>
+</div>
+<button onclick="readMore2()">readmore</button>
+</div>
 
-<button onclick="readMore()">readmore</button>
+<div id="section">
+<p><h4>Testimoni:</h4></p>
+
+
+</div>
 
 </body>
 
-<div><script>
-function readMore(){
-	var temp=document.getElementById("readMore").style.display;
-	if(temp=="none")
-	document.getElementById("readMore").style.display="block";
-	else
-	document.getElementById("readMore").style.display="none";
-}
-
-$(".hide").hide();
-		$("#readMore2").click(function(){
-$(".hide").slideToggle("fast");
-		});
-
-function readMore1(){
-	var temp=document.getElementById("readMore2").style.display;
-	if(temp=="none")
-	document.getElementById("readMore2").style.display="block";
-	else
-	document.getElementById("readMore2").style.display="none";
-}
-
-</script></div>
 
 </html>
